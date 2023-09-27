@@ -10,6 +10,13 @@
             permiten medir esta cobertura de manera eficaz.</p>
         <p>JaCoCo puede integrarse con diferentes IDEs, además se puede integrar con plugins de Jenkins y de SonarQube
             (entre otros), para verificar el código en una pipeline desde fuera de nuestro entorno de desarrollo.</p>
+        <p>Los informes de JaCoCo nos ayudan a analizar visualmente la cobertura de código utilizando diamantes con colores
+            para las ramas y colores de fondo para las líneas:</p>
+        <ul>
+            <li>Un diamante rojo significa que no se han ejecutado ramas durante la fase de pruebas.</li>
+            <li>Un diamante amarillo indica que el código está parcialmente cubierto, es decir, algunas ramas no se han ejecutado.</li>
+            <li>Un diamante verde indica que se han ejecutado todas las ramas durante las pruebas.</li>
+        </ul>
     </div>
 </template>
 
