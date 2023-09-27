@@ -1,0 +1,57 @@
+/* Estilos para resaltar la sintaxis de HTML */
+pre code {
+    display: block;
+    padding: 0;
+    margin: 0;
+    background-color: #111;
+    border: 1px solid #ccc;
+    font-size: 12px;
+    line-height: 1.5;
+    overflow-x: auto;
+    color: #fff;
+}
+
+/* Estilos para los elementos HTML */
+.keyword {
+    color: #007700;
+    font-weight: bold;
+}
+
+.comment {
+    color: #36a0a0;
+    font-style: italic;
+}
+
+.string {
+    color: #AA2200;
+}
+
+/* Estilos para atributos y valores de atributos */
+.attribute {
+    color: #e17055;
+    font-weight: bold;
+}
+
+.value {
+    color: #36a0a0;
+}
+
+/* Estilos para etiquetas HTML */
+.tag {
+    color: #63a69f;
+    font-weight: bold;
+}
+
+.con-image {
+    display: flex; /* Usar flexbox para centrar */
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    width: 90vw; /* Ancho completo de la ventana */
+    height: 90vh; /* Altura completa de la ventana */
+}
+
+/* Estilo para la imagen (opcional) */
+.conimage img {
+    max-width: 100%; /* Asegurar que la imagen no sea más ancha que el contenedor */
+    max-height: 100%; /* Asegurar que la imagen no sea más alta que el contenedor */
+}
