@@ -20,12 +20,6 @@
     </div>
 </template>
 
-Los informes de JaCoCo nos ayudan a analizar visualmente la cobertura de código utilizando diamantes con colores para las ramas y colores de fondo para las líneas:
-
-    Un diamante rojo significa que no se han ejecutado ramas durante la fase de pruebas.
-    Un diamante amarillo indica que el código está parcialmente cubierto, es decir, algunas ramas no se han ejecutado.
-    Un diamante verde indica que se han ejecutado todas las ramas durante las pruebas.
-
 El mismo código de colores se aplica al color de fondo, pero para la cobertura de líneas.
 
 JaCoCo proporciona principalmente tres métricas importantes:
