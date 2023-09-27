@@ -1,0 +1,1 @@
+import{_ as e,o as s,c as t,a as c}from"./index-0e88ad33.js";const o="/assets/imageJunit-76e8c7af.png",n={},a={class:"container con-image"},_=c("img",{src:o,class:"img-fluid",alt:"JUnit5"},null,-1),i=[_];function r(l,m){return s(),t("div",a,i)}const f=e(n,[["render",r]]);export{f as default};
